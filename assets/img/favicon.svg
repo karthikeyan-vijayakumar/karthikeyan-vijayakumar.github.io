@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="10" fill="#0f172a"/>
-  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Arial" font-size="30" fill="#93c5fd">KV</text>
+  <rect width="64" height="64" rx="8" fill="#0B0D12"/>
+  <rect x="1" y="1" width="62" height="62" rx="7" fill="none" stroke="#232733" stroke-width="1"/>
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="26" fill="#C98A3E">KV</text>
 </svg>

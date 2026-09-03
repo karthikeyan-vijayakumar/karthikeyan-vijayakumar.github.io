@@ -1,31 +1,24 @@
 # karthikeyan-vijayakumar.github.io
 
-Static multi-page portfolio website for GitHub Pages (no backend, no build step).
+Single-page static portfolio for GitHub Pages (no backend, no build step).
 
-## Site structure
+## Structure
 
-- `/index.html` — Home
-- `/about.html` — About + skills + competencies
-- `/resume.html` — Education + certifications summary + experience timeline
-- `/achievements.html` — Key achievements
-- `/certifications.html` — Complete certifications list
-- `/contact.html` — Contact details + mailto form
-- `/assets/css/styles.css` — Shared styles and responsive layout
-- `/assets/js/main.js` — Mobile nav toggle, rotating title, reveal animations
-- `/assets/img/profile.jpg` — Profile image placeholder (replace with your photo)
-- `/assets/img/favicon.svg` — Favicon
+- `/index.html` — the site: Hero, About, Architecture domains, Experience, Case Studies, Certifications, Contact
+- `/assets/css/styles.css` — design system (graphite/blueprint theme, brass accent)
+- `/assets/js/main.js` — mobile nav, scroll-spy, reveal-on-scroll, footer year
+- `/assets/img/profile.jpg` — profile photo
+- `/assets/img/favicon.svg` — favicon
+- `about.html`, `resume.html`, `achievements.html`, `certifications.html`, `contact.html` — legacy URLs, redirect to the matching section of `index.html` so old links still work
 
-## Run locally
+## Fonts
 
-Open `index.html` directly in a browser, or serve with any static server.
+Space Grotesk (display), Inter (body), IBM Plex Mono (labels/metrics) via Google Fonts CDN.
 
 ## Update content
 
-- **Profile photo:** replace `/assets/img/profile.jpg` with your photo (same filename for zero code changes)
-- **Resume and achievements:** update `resume.html`, `achievements.html`, and `certifications.html`
-- **Bio, skills, links:** update `about.html` and sidebar links on all pages
-- **Contact details:** update `contact.html` and email/social links in page sidebars
+All content lives in `index.html`. Sourced from resume — update the relevant section (About, Experience, Case Studies, Certifications) directly in the markup.
 
 ## Deployment
 
-Push to the default branch of this repository; GitHub Pages will serve the static files.
+Push to the default branch; GitHub Pages serves the static files.
